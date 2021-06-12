@@ -1,0 +1,66 @@
+.Card{
+    width: 262px;
+    box-shadow: 0 2px 5px 1px rgba(64 ,60, 67,.16);
+    background-color: #fff;
+    min-height: 252px;
+    margin: 0 32px 32px 0;
+    border-radius: 4px;
+    padding: 18px;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    @media screen and (max-width: 1024px) {
+    //    min-height: auto;
+       width: 90%;
+       margin:0 auto 32px;
+    }
+    .call{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: .2s;
+        a{
+
+            height: 46px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-decoration: none;
+            background: #ff8c00;
+            border: none;
+            font-family: OpenSans-Semibold;
+            color: #fff;
+            font-size: 16px;
+            line-height: 16px;
+            text-transform: capitalize;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover{
+                background: #d57500;
+            }
+        }
+    }
+    p{
+        display: flex;
+        word-break: break-word;
+        label{
+            font-family: opensans-Semibold;
+            font-size: 16px;
+            width: 50%;
+            display: block;
+            line-height: 26px;
+            text-transform: capitalize;
+        }
+        span{
+            font-family: opensans-Regular;
+            font-size: 14px;
+            line-break: 26px;
+            width: 50%;
+            display: block;
+            text-transform: capitalize;
+        }
+    }
+}

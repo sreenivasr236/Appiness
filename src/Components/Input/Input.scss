@@ -1,0 +1,29 @@
+.Input{
+    label{
+        display: block;
+        text-align: left;
+        font-family: opensans-Semibold;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    input{
+        width: 100%;
+        outline: none;
+        display: inline-block;
+        border: 1px solid #dcd6d6;
+        height: 46px;
+        border-radius: 4px;
+        padding: 0 12px;
+        font-family: opensans-Regular;
+        font-size: 14px;
+    }
+    .error{
+        font-family: opensans-Regular;
+        color: red;
+        display: block;
+        text-align: left;
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+}

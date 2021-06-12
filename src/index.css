@@ -1,0 +1,19 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: opensans-Semibold;
+  src: url('./Assets/Fonts/OpenSans-Semibold.ttf');
+}
+@font-face {
+  font-family: opensans-Regular;
+  src: url('./Assets/Fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: opensans-Bold;
+  src: url('./Assets/Fonts/OpenSans-Bold.ttf');
+}
